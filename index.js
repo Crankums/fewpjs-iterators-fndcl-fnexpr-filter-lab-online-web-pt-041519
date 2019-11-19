@@ -7,8 +7,8 @@ function findMatching(drivers, string){
 
 function fuzzyMatch(drivers, string) {
   return drivers.filter(el =>
-    el[0] === string[0])
-
+    el[0] === string[0]
+  )
 }
 
 function matchName() {
