@@ -1,8 +1,9 @@
 // Code your solution here
 function findMatching(drivers, string){
-  return drivers.filter(el =>{
+  let arr = drivers.filter(el =>{
      el===string.downcase
   })
+  return arr
 }
 
 function fuzzyMatch() {
