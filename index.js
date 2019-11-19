@@ -1,7 +1,7 @@
 // Code your solution here
 function findMatching(drivers, string){
   let arr = drivers.filter(el =>{
-     return el.toLowerCase === string.toLowerCase
+     el.toLowerCase === string.toLowerCase
   })
   return arr
 }
